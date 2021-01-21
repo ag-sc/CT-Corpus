@@ -1,1 +1,8 @@
 
+Content:
+
+1)Tokenization: contains program to tokenize a text file to be used in the SANTO annotation tool.
+
+2)BaselineMethods: baseline methods to identify single and complex entities from text.
+
+3)IAA-programs: programs to calculate the inter-annotation agreement on single and complex entities and their relations.
