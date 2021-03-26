@@ -1,6 +1,6 @@
 Content:
 
-1) Corpus:
+1) Corpus.zip:
 
 - list_abstracts_glaucoma_corpus: list of the pubMed ids of the abstracts of clinical trials on glaucoma.
 
@@ -10,7 +10,7 @@ Content:
 
 - subdirectory diabetes_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text).
 
-2) AnnotatedCorpus:
+2) AnnotatedCorpus.zip:
 
 - annotated glaucoma and diabetes abstracts
 
