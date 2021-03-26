@@ -7,18 +7,18 @@ Content:
 - subdirectory diabetes_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text).
 
 2) AnnotatedFiles:
-- glaucoma_annotatedFiles: annotated glaucoma abstracts.
-- diabetes_annotatedFiles: annotated diabetes abstracts.
+- annotated glaucoma and diabetes abstracts
+
 - Slot-annotated_for_IAA: 20 slot-annotated abstracts used for inter-annotator agreement on slot-filling annotations. These abstracts are copies of the curated single-entity-annotated files (suffix "copy") and slot-filling-annotated by a different annotator.
 
-- The subdirectories contain annotation files with the following suffixes and extensions:
+The subdirectories contain annotation files with the following suffixes and extensions:
 
- _export.csv: are tokenized curated files.
+_export.csv: are tokenized curated files.
 
- _user.n-triples: slot-filling annotations in RDF n-triple format.
+_user.n-triples: slot-filling annotations in RDF n-triple format.
 
- _user.annodb: annotations of single entities in CONLL fashion format. it  contains the celemnts: AnnotationID, ClassType (annotation category), DocCharOnset(incl), DocCharOffset(excl), Text (annotated text), Meta (N/A), Instances (is the RDF triple indicated when the annotation belongs to a slot).
+_user.annodb: annotations of single entities in CONLL fashion format. it  contains the celemnts: AnnotationID, ClassType (annotation category), DocCharOnset(incl), DocCharOffset(excl), Text (annotated text), Meta (N/A), Instances (is the RDF triple indicated when the annotation belongs to a slot).
 
- "user" corresponds to each annotator and admin corresponds to the curated files.
+"annotator[1-4]" corresponds to each annotator and "curated" to the curated files.
 
 3) AnnotationGuidelines: contains the guidelines for the schematic relational annotation of clinical trial abstracts.
