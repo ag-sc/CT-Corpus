@@ -1,12 +1,12 @@
 Content:
 
-1) Corpus:
+1) Corpus.zip:
 - list_abstracts_glaucoma_corpus: list of the pubMed ids of the abstracts of clinical trials on glaucoma.
 - list_abstracts_dm2_corpus: list of the pubMed ids of the abstracts of clinical trials on type 2 diabetes mellitus.
 - subdirectory glaucoma_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text).
 - subdirectory diabetes_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text).
 
-2) AnnotatedFiles:
+2) AnnotatedCorpus.zip:
 - annotated glaucoma and diabetes abstracts
 
 - Slot-annotated_for_IAA: 20 slot-annotated abstracts used for inter-annotator agreement on slot-filling annotations. These abstracts are copies of the curated single-entity-annotated files (suffix "copy") and slot-filling-annotated by a different annotator.
