@@ -1,7 +1,9 @@
 Content:
 
-1)Tokenization: contains program to tokenize a text file to be used in the SANTO annotation tool.
+- iaa_single_entities.py: script to calculate the inter-annotation agreement on single entities
 
-2)BaselineMethods: baseline methods to identify single and complex entities from text.
+- iaa_complex_entities.py: script o calculate the inter-annotation agreement on complex entities
 
-3)IAA-programs: programs to calculate the inter-annotation agreement on single and complex entities and their relations.
+- tagging_baseline.py: baseline method to identify single entities from text
+
+- slot_filling.py: baseline method to identify complex entities from text
