@@ -1,0 +1,13 @@
+Content:
+
+- glaucoma_test_ids.txt: Abstract ids of the glaucoma test set
+
+- glaucoma_train_ids.txt: Abstract ids of the glaucoma training set
+
+- glaucoma_validation_ids.txt: Abstract ids of the glaucoma validation set
+
+- t2dm_test_ids.txt: Abstract ids of the T2DM test set
+
+- t2dm_train_ids.txt: Abstract ids of the T2DM training set
+
+- t2dm_validation_ids.txt: Abstract ids of the T2DM validation set
