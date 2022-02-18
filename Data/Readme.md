@@ -1,6 +1,6 @@
 ## Content:
 
-**Corpus.zip**
+**1. Corpus.zip**
 
 - list_abstracts_glaucoma_corpus: list of the PubMed ids of the abstracts of clinical trials on glaucoma
 
@@ -11,7 +11,7 @@
 - subdirectory diabetes_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text)
 
 
-**AnnotatedCorpus.zip**
+**2. AnnotatedCorpus.zip**
 
 - Annotated abstracts on glaucoma and diabetes:
 
@@ -26,8 +26,6 @@
 "annotator[1-4]" corresponds to each annotator and "curated" to the curated files.
 
 
+**3. AnnotationGuidelines.pdf**
 
-
-**AnnotationGuidelines.pdf**
-
-`Annotation guidelines for the entity and schematic annotation of clinical trial abstracts.`
+Annotation guidelines for the entity and schematic annotation of clinical trial abstracts.
