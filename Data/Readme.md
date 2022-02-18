@@ -11,9 +11,8 @@
 - subdirectory diabetes_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text)
 
 
-
 **AnnotatedCorpus.zip**
-```
+
 - Annotated abstracts on glaucoma and diabetes:
 
 - Slot-annotated_for_IAA: contains 20 schematically annotated abstracts (slot-filling templates) abstracts and their corresponding single-entity annotated files used for the inter-annotator agreement on complex entities. The 20 files were annotated by different annotators that the ones contained in the Slot-annotated subdirectory.
@@ -26,7 +25,7 @@
 
 "annotator[1-4]" corresponds to each annotator and "curated" to the curated files.
 
-```
+
 
 
 **AnnotationGuidelines.pdf**
