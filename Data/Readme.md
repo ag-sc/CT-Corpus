@@ -19,7 +19,7 @@
 
 - Slot-annotated: contains the slot-filling template annotations in RDF n-triple format.
 
-- Entity-annotated: contains the single-entity annotated abstracts in CONLL fashion format with the celemnts: AnnotationID, ClassType (annotation category), DocCharOnset(incl), DocCharOffset(excl), Text (annotated text), Meta (N/A), Instances (is the RDF triple indicated when the annotation belongs to a slot).
+- Entity-annotated: contains the single-entity annotated abstracts in CONLL fashion format with the elements: *AnnotationID, ClassType (annotation category), DocCharOnset(incl), DocCharOffset(excl), Text (annotated text), Meta (N/A), Instances (RDF triple indicated when the annotation belongs to a slot).*
 
 - Tokens: contains tokenized files.
 
