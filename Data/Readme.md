@@ -6,9 +6,9 @@
 
 - list_abstracts_dm2_corpus: list of the PubMed ids of the abstracts of clinical trials on type 2 diabetes mellitus
 
-- subdirectory glaucoma_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text)
+- glaucoma_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text)
 
-- subdirectory diabetes_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text)
+- diabetes_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text)
 
 
 **2. AnnotatedCorpus.zip**
@@ -19,7 +19,7 @@
 
 - Slot-annotated: contains the slot-filling template annotations in RDF n-triple format.
 
-- Entity-annotated: contains the single-entity annotated abstracts in CONLL fashion format with the elements: *AnnotationID, ClassType (annotation category), DocCharOnset(incl), DocCharOffset(excl), Text (annotated text), Meta (N/A), Instances (RDF triple indicated when the annotation belongs to a slot).*
+- Entity-annotated: contains the single-entity annotated abstracts in CONLL fashion format with the elements: *AnnotationID, ClassType (annotation category), DocCharOnset(incl), DocCharOffset(excl), Text (annotated text), Meta (N/A), Instances (RDF triple indicated when the annotation is a slot-filler).*
 
 - Tokens: contains tokenized files.
 
