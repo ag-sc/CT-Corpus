@@ -1,29 +1,29 @@
 ## Content:
 
-1) Corpus.zip:
+**Corpus.zip**
+```
+- list_abstracts_glaucoma_corpus: list of the PubMed ids of the abstracts of clinical trials on glaucoma
+- list_abstracts_dm2_corpus: list of the PubMed ids of the abstracts of clinical trials on type 2 diabetes mellitus
+- subdirectory glaucoma_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text)
+- subdirectory diabetes_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text)
+```
 
-- list_abstracts_glaucoma_corpus: list of the PubMed ids of the abstracts of clinical trials on glaucoma.
+**AnnotatedCorpus.zip**
+```
+- Annotated abstracts on glaucoma and diabetes:
 
-- list_abstracts_dm2_corpus: list of the PubMed ids of the abstracts of clinical trials on type 2 diabetes mellitus.
+- Slot-annotated_for_IAA: contains 20 schematically annotated abstracts (slot-filling templates) abstracts and their corresponding single-entity annotated files used for the inter-annotator agreement on complex entities. The 20 files were annotated by different annotators that the ones contained in the Slot-annotated subdirectory.
 
-- subdirectory glaucoma_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text).
+- Slot-annotated: contains the slot-filling template annotations in RDF n-triple format.
 
-- subdirectory diabetes_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text).
+- Entity-annotated: contains the single-entity annotated abstracts in CONLL fashion format with the celemnts: AnnotationID, ClassType (annotation category), DocCharOnset(incl), DocCharOffset(excl), Text (annotated text), Meta (N/A), Instances (is the RDF triple indicated when the annotation belongs to a slot).
 
-2) AnnotatedCorpus.zip:
-
-- annotated glaucoma and diabetes abstracts
-
-- Slot-annotated_for_IAA: 20 slot-annotated abstracts used for inter-annotator agreement on slot-filling annotations. These abstracts are copies of the curated single-entity-annotated files (suffix "copy") and slot-filling-annotated by a different annotator.
-
-The subdirectories contain annotation files with the following suffixes and extensions:
-
-_export.csv: are tokenized curated files.
-
-_user.n-triples: slot-filling annotations in RDF n-triple format.
-
-_user.annodb: annotations of single entities in CONLL fashion format. it  contains the celemnts: AnnotationID, ClassType (annotation category), DocCharOnset(incl), DocCharOffset(excl), Text (annotated text), Meta (N/A), Instances (is the RDF triple indicated when the annotation belongs to a slot).
+- Tokens: contains tokenized files.
 
 "annotator[1-4]" corresponds to each annotator and "curated" to the curated files.
 
-3) AnnotationGuidelines.pdf: guidelines for the schematic relational annotation of clinical trial abstracts.
+```
+
+
+**AnnotationGuidelines.pdf**
+`guidelines for the schematic relational annotation of clinical trial abstracts.`
