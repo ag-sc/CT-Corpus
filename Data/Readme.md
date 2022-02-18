@@ -1,7 +1,7 @@
 ## Content:
 
 **Corpus.zip**
-```
+
 - list_abstracts_glaucoma_corpus: list of the PubMed ids of the abstracts of clinical trials on glaucoma
 
 - list_abstracts_dm2_corpus: list of the PubMed ids of the abstracts of clinical trials on type 2 diabetes mellitus
@@ -10,7 +10,7 @@
 
 - subdirectory diabetes_corpus: corpus of glaucoma abstracts (original text, text without newlines and tokenized text)
 
-```
+
 
 **AnnotatedCorpus.zip**
 ```
